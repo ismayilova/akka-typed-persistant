@@ -1,0 +1,17 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\ScalaProjects\udemy_remoting_cluster\target\scala-2.13\classes ...
+[warn] C:\ScalaProjects\udemy_remoting_cluster\src\main\scala\com\ismayilova\akka\io\persistance\part2_event_sourcing\Exercise.scala:33:5: match may not be exhaustive.
+[warn] It would fail on the following input: CantVote(_)
+[warn]     command match {
+[warn]     ^
+[warn] C:\ScalaProjects\udemy_remoting_cluster\src\main\scala\com\ismayilova\akka\io\persistance\part2_event_sourcing\UdemyPersistant.scala:96:5: match may not be exhaustive.
+[warn] It would fail on the following input: Failured(_)
+[warn]     event match {
+[warn]     ^
+[warn] 1 deprecation (since 2.13.0); re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[success] Total time: 12 s, completed 18.01.2021 16:43:15
+[debug] > Exec(idea-shell, None, None)

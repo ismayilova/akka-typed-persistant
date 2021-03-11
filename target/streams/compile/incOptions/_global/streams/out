@@ -1,0 +1,57 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\ScalaProjects\udemy_remoting_cluster\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	ActorContextPersistant$.class
+[debug] 	UdemyPersistant$.class
+[debug] 	ActorContextPersistant$State.class
+[debug] 	UdemyPersistant$TransactionCommited.class
+[debug] 	PersistantActors$Added$.class
+[debug] 	PersistantActors$Event.class
+[debug] 	Exercise$DefaultEvent$.class
+[debug] 	Main$.class
+[debug] 	Exercise$.class
+[debug] 	Exercise$Failured.class
+[debug] 	UdemyPersistant$HalfEntry.class
+[debug] 	PersistantActors$State.class
+[debug] 	UdemyPersistant$Failured.class
+[debug] 	PersistantActors$Command.class
+[debug] 	UdemyPersistant$HalfEntry$.class
+[debug] 	Exercise$Voted$.class
+[debug] 	UdemyPersistant$Event.class
+[debug] 	UdemyPersistant$TransactionState.class
+[debug] 	PersistantActors.class
+[debug] 	Exercise$Command.class
+[debug] 	Exercise$Voted.class
+[debug] 	PersistantActors$Added.class
+[debug] 	PersistantActors$State$.class
+[debug] 	Exercise$State.class
+[debug] 	PersistantActors$Clear$.class
+[debug] 	ActorContextPersistant$State$.class
+[debug] 	UdemyPersistant$Command.class
+[debug] 	ActorContextPersistant$Command.class
+[debug] 	Exercise$Vote$.class
+[debug] 	Exercise$Failured$.class
+[debug] 	PersistantActors$Cleared$.class
+[debug] 	UdemyPersistant$Failured$.class
+[debug] 	Main.class
+[debug] 	PersistantActors$.class
+[debug] 	UdemyPersistant.class
+[debug] 	Exercise$CantVote.class
+[debug] 	PersistantActors$Add$.class
+[debug] 	PersistantActors$Add.class
+[debug] 	UdemyPersistant$TransactionCommited$.class
+[debug] 	Exercise$CantVote$.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	ActorContextPersistant.class
+[debug] 	Exercise$Event.class
+[debug] 	UdemyPersistant$CommitTransaction$.class
+[debug] 	UdemyPersistant$TransactionState$.class
+[debug] 	ActorContextPersistant$Bye$.class
+[debug] 	Exercise$Print$.class
+[debug] 	ActorContextPersistant$Hello$.class
+[debug] 	Exercise$Vote.class
+[debug] 	PersistantActors$Print$.class
+[debug] 	Exercise.class
+[debug] 	Exercise$State$.class
+[debug] Removing the temporary directory used for backing up class files: C:\ScalaProjects\udemy_remoting_cluster\target\scala-2.13\classes.bak

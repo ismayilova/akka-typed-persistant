@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\kamilai\AppData\Local\Temp\idea1.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\kamilai\AppData\Local\Temp\idea1.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.4 (Oracle Corporation Java 1.8.0_221)
+[debug]       Load.loadUnit: plugins took 733.5032ms
+[debug]       Load.loadUnit: defsScala took 0.3989ms
+[debug] [Loading] Scanning directory C:\Users\kamilai\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\kamilai\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 40.146 ms
+[debug]           Load.resolveProject(global-plugins) took 308.192ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\kamilai\.sbt\1.0\plugins, plugins: List(<none>))) took 381.3117ms
+[debug] [Loading] Done in C:\Users\kamilai\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 787.9431ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4736ms
+[debug]     Load.loadUnit(file:/C:/Users/kamilai/.sbt/1.0/plugins/, ...) took 1532.3076ms
+[debug]   Load.apply: load took 3932.544ms
+[debug]   Load.apply: resolveProjects took 6.4747ms
+[debug]   Load.apply: finalTransforms took 176.777ms
+[debug]   Load.apply: config.delegates took 10.542ms
+[debug]   Load.apply: Def.make(settings)... took 12007.5273ms
+[debug]   Load.apply: structureIndex took 251.4656ms
+[debug]   Load.apply: mkStreams took 3.37ms
+[info] loading global plugins from C:\Users\kamilai\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 36574.498ms
+[debug]           Load.loadUnit: plugins took 62.7448ms
+[debug]           Load.loadUnit: defsScala took 0.006ms
+[debug] [Loading] Scanning directory C:\ScalaProjects\udemy_remoting_cluster\project
+[debug]             Load.loadUnit: mkEval took 2.1909ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\ScalaProjects\udemy_remoting_cluster\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.9707 ms
+[info] loading settings for project udemy_remoting_cluster-build from idea1.sbt ...
+[debug]               Load.resolveProject(udemy_remoting_cluster-build) took 99.3267ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id udemy_remoting_cluster-build, base: C:\ScalaProjects\udemy_remoting_cluster\project, plugins: List(<none>))) took 103.0853ms
+[debug] [Loading] Done in C:\ScalaProjects\udemy_remoting_cluster\project, returning: (udemy_remoting_cluster-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 645.8127ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.259ms
+[debug]         Load.loadUnit(file:/C:/ScalaProjects/udemy_remoting_cluster/project/, ...) took 717.3691ms
+[debug]       Load.apply: load took 720.2117ms
+[debug]       Load.apply: resolveProjects took 0.1329ms
+[debug]       Load.apply: finalTransforms took 11.2257ms
+[debug]       Load.apply: config.delegates took 0.5033ms
+[debug]       Load.apply: Def.make(settings)... took 82.5041ms
+[debug]       Load.apply: structureIndex took 29.6616ms
+[debug]       Load.apply: mkStreams took 0.0026ms
+[info] loading project definition from C:\ScalaProjects\udemy_remoting_cluster\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3735.2722ms
+[debug]     Load.loadUnit: defsScala took 0.0031ms
+[debug] [Loading] Scanning directory C:\ScalaProjects\udemy_remoting_cluster
+[debug]       Load.loadUnit: mkEval took 0.4663ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\ScalaProjects\udemy_remoting_cluster, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.7293 ms
+[info] loading settings for project udemy_remoting_cluster from build.sbt ...
+[debug]         Load.resolveProject(udemy_remoting_cluster) took 82.4662ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id udemy_remoting_cluster, base: C:\ScalaProjects\udemy_remoting_cluster, plugins: List(<none>))) took 85.3875ms
+[debug] [Loading] Done in C:\ScalaProjects\udemy_remoting_cluster, returning: (udemy_remoting_cluster)
+[debug]     Load.loadUnit: loadedProjectsRaw took 545.1795ms
+[debug]     Load.loadUnit: cleanEvalClasses took 53.6807ms
+[debug]   Load.loadUnit(file:/C:/ScalaProjects/udemy_remoting_cluster/, ...) took 4335.9712ms
+[debug] Load.apply: load took 4338.9152ms
+[debug] Load.apply: resolveProjects took 0.1465ms
+[debug] Load.apply: finalTransforms took 26.688ms
+[debug] Load.apply: config.delegates took 0.2737ms
+[debug] Load.apply: Def.make(settings)... took 124.7832ms
+[debug] Load.apply: structureIndex took 30.1692ms
+[debug] Load.apply: mkStreams took 0.0034ms
+[info] set current project to udemy_remoting_cluster (in build file:/C:/ScalaProjects/udemy_remoting_cluster/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 52035 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 52035, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to udemy_remoting_cluster (in build file:/C:/ScalaProjects/udemy_remoting_cluster/)
+[debug] > Exec(idea-shell, None, None)
