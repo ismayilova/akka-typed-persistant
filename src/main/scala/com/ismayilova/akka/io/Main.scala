@@ -56,16 +56,16 @@ object Main extends App{
 
 
  //=================================== TransactionService PERSISTATnt===================================
- val ts = ActorSystem(TransactionService(),"T2")
-
-
-
-    ts ! PrintAccounts
-    ts ! Print
-    ts ! CommitTransaction("transaction1")
-    ts ! Print
-    ts ! CompleteCommitTransaction("transaction1")
-   ts ! Print
+// val ts = ActorSystem(TransactionService(),"T2")
+//
+//
+//
+//    ts ! PrintAccounts
+//    ts ! Print
+//    ts ! CommitTransaction("transaction1")
+//    ts ! Print
+//    ts ! CompleteCommitTransaction("transaction1")
+//   ts ! Print
  // TransactionServie ! Print
 
  //=================================== TransactionService PERSISTATnt===================================

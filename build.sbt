@@ -44,7 +44,19 @@ libraryDependencies ++= Seq(
   "com.lightbend.akka" %% "akka-persistence-jdbc" % "4.0.0",
   "com.typesafe.akka" %% "akka-persistence-query" % AkkaVersion,
   "com.typesafe.slick" %% "slick" % SlickVersion,
-  "com.typesafe.slick" %% "slick-hikaricp" % SlickVersion
+  "com.typesafe.slick" %% "slick-hikaricp" % SlickVersion,
+  "com.oracle.database.jdbc" % "ojdbc8" % "21.1.0.0",
+
+
+  //SPRING
+  "org.springframework.boot" % "spring-boot-starter-data-jdbc" % "2.5.0",
+
+  //SLICK
+
+//  "com.typesafe.slick" %% "slick-extensions" % SlickVersion,
+
+"com.lightbend.akka" %% "akka-stream-alpakka-slick" % "2.0.2",
+"com.typesafe.akka" %% "akka-stream" % AkkaVersion
 )
 
 
